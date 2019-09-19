@@ -1,0 +1,7 @@
+ {
+     "deploymentBackendList": ["Gogo", "Wyman", "Weehreen"],
+     "roadShowList": ["Weehreen", "Weehreen", "Weehreen", "Wyman", "Wyman", "Wyman", "Gogo", "Gogo", "Gogo", "Gary", "Gary", "Gary", "Dennis", "Dennis", "Dennis", "Johnny", "Johnny", "Johnny"],
+     "sprintReviewBackEndList": ["Weehreen", "Gogo", "Wyman"],
+     "sprintReviewFrontEndList": ["Johnny", "Gary", "Dennis"],
+     "scrumOfScrumList": ["Weehreen", "Wyman", "Gogo", "Gary", "Dennis", "Johnny"]
+ }
