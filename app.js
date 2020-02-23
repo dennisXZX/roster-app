@@ -4,7 +4,8 @@ const axios = require('axios');
 const fs = require('fs');
 
 const deploymentBackendList = rosterDatabase.deploymentBackendList;
-const roadShowList = rosterDatabase.roadShowList;
+const roadShowBackendList = rosterDatabase.roadShowBackendList;
+const roadShowFrontendList = rosterDatabase.roadShowFrontendList;
 const sprintReviewBackEndList = rosterDatabase.sprintReviewBackEndList;
 const sprintReviewFrontEndList = rosterDatabase.sprintReviewFrontEndList;
 const scrumOfScrumList = rosterDatabase.scrumOfScrumList;
@@ -12,7 +13,8 @@ const scrumOfScrumList = rosterDatabase.scrumOfScrumList;
 const sprintReviewFrontEndPerson = sprintReviewFrontEndList[0];
 const sprintReviewBackEndPerson = sprintReviewBackEndList[0];
 const scrumOfScrumPerson = scrumOfScrumList[0];
-const roadShowPerson = roadShowList[0];
+const roadShowBackEndPerson = roadShowBackendList[0];
+const roadShowFrontEndPerson = roadShowFrontendList[0];
 const deploymentBackendPerson = deploymentBackendList[0];
 
 const slackPayload = {
@@ -53,7 +55,7 @@ const slackPayload = {
             "fields": [
                 {
                     "title": "Road Show!",
-                    "value": `${roadShowPerson}`
+                    "value": `FE: ${roadShowFrontEndPerson} \n BE: ${roadShowBackEndPerson}`
                 }
             ]
         }
@@ -65,7 +67,8 @@ axios.post(SLACK_CONFIG.slackUrl, slackPayload);
 
 // Update the roster list database for next round
 deploymentBackendList.push(deploymentBackendList.shift());
-roadShowList.push(roadShowList.shift());
+roadShowBackendList.push(roadShowBackendList.shift());
+roadShowFrontendList.push(roadShowFrontendList.shift());
 sprintReviewBackEndList.push(sprintReviewBackEndList.shift());
 sprintReviewFrontEndList.push(sprintReviewFrontEndList.shift());
 scrumOfScrumList.push(scrumOfScrumList.shift());
