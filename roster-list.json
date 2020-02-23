@@ -1,7 +1,1 @@
- {
-     "deploymentBackendList": ["Gogo", "Wyman", "Weehreen"],
-     "roadShowList": ["Weehreen", "Weehreen", "Weehreen", "Wyman", "Wyman", "Wyman", "Gogo", "Gogo", "Gogo", "Gary", "Gary", "Gary", "Dennis", "Dennis", "Dennis", "Johnny", "Johnny", "Johnny"],
-     "sprintReviewBackEndList": ["Weehreen", "Gogo", "Wyman"],
-     "sprintReviewFrontEndList": ["Johnny", "Gary", "Dennis"],
-     "scrumOfScrumList": ["Weehreen", "Wyman", "Gogo", "Gary", "Dennis", "Johnny"]
- }
+{"deploymentBackendList":["Gogo","Wyman"],"roadShowBackendList":["Wyman","Wyman","Gogo","Gogo","Gogo","Wyman"],"roadShowFrontendList":["Kuen","Kuen","Raj","Raj","Raj","Gary","Gary","Gary","Johnny","Johnny","Johnny","Kuen"],"sprintReviewBackEndList":["Gogo","Wyman"],"sprintReviewFrontEndList":["Kuen","Raj","Johnny","Gary"],"scrumOfScrumList":["Kuen","Gogo","Gary","Johnny","Raj","Wyman"]}
