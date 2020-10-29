@@ -1,7 +1,8 @@
 const SLACK_CONFIG = {
-    channel: "#testbydennis",
+    channel: "#UpdateYourChannelNameHere",
     username: "Motorcycle Roster",
     icon_emoji: ":motorcycle:",
+    slackUrl: "UpdateYourSlackUrlHere",
     messageTitle: "/** The Most Comprehensive Motorcycle Roster List - Bot Never Lie! **/"
 }
 
