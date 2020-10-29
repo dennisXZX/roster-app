@@ -1,5 +1,5 @@
 const SLACK_CONFIG = {
-    channel: "#UpdateYourChannelNameHere",
+    channel: "#motorcycle-team",
     username: "Motorcycle Roster",
     icon_emoji: ":motorcycle:",
     slackUrl: "UpdateYourSlackUrlHere",
