@@ -1,9 +1,9 @@
 ## roster-app
 
-A simple roster app for fun. XD
+A simple package-free roster app for boosting productivity and FUN. XD
 
 ### How to use
 
-- Make sure you have Node.js installed on your machine. Ideally Node.js version is greater than `v12.7.0`
+- Make sure you have Node.js (version > v12.7.0) installed on your machine.
 - Update `slackUrl` field in `slack-config.js`
 - Run `node app.js`
